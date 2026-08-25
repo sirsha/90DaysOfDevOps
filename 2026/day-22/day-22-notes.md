@@ -5,7 +5,7 @@
 2. Set up your Git identity — name and email
 3. Verify your configuration
 
-   ![snapshot](2026/day-22/images/config2.png)
+   ![Configuration](images/config2.png)
    
 ---
 
