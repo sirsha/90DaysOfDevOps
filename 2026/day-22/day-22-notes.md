@@ -25,7 +25,7 @@
 3. Commit with a meaningful message
 4. View your commit history
 
-   ![snapshot](images/git_log.png)
+ ![Configuration](images/config4.png)
    
 ---
 
