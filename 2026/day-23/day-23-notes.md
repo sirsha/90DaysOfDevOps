@@ -32,9 +32,11 @@ perfectly. That is why we use branches, experiment on other branches first then 
 8. Delete a branch you no longer need
 9. Add all branching commands to your `git-commands.md`
 
-   ![snapshot](images/branch.png)
+   ![Configuration](images/git1.png)
    
-   ![snapshot](images/git_log.png)
+   
+   ![Configuration](images/git2.png)
+   
 ---
 
 ## Task 3: Push to GitHub
@@ -49,9 +51,11 @@ perfectly. That is why we use branches, experiment on other branches first then 
   * `Upstream` - Points to the repository you forked from.
     - If not forked then no need of upstream.
     
-   ![snapshot](images/github.png)
+  ![Configuration](images/git3.png)
    
-   ![snapshot](images/push.png)
+   
+  ![Configuration](images/git4.png)
+   
    
 ---
 
