@@ -7,7 +7,7 @@
 3. Observe the merge — did Git do a **fast-forward** merge or a **merge commit**?
   * **fast-forward**
   
-     ![snapshot](images/ff_merge.png)
+     ![snapshot](images/git1.png)
      
 4. Now create another branch `feature-signup`, add commits to it — but also add a commit to `main` before merging
 5. Merge `feature-signup` into `main` — what happens this time?
