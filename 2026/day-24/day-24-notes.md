@@ -35,6 +35,7 @@
 4. Observe your `git log --oneline --graph --all` — how does the history look compared to a merge?
 
     ![snapshot](images/git7.png)
+   
     ![snapshot](images/git8.png)
     
 6. Answer in your notes:
