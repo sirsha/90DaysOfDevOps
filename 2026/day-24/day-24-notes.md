@@ -7,13 +7,13 @@
 3. Observe the merge — did Git do a **fast-forward** merge or a **merge commit**?
   * **fast-forward**
   
-     ![snapshot](images/git1.png)
+     ![snapshot](images/git5.png)
      
 4. Now create another branch `feature-signup`, add commits to it — but also add a commit to `main` before merging
 5. Merge `feature-signup` into `main` — what happens this time?
  * **merge commit**
  
-    ![snapshot](images/commit_merge.png)
+    ![snapshot](images/git6.png)
     
 6. Answer in your notes:
   - What is a fast-forward merge?
@@ -34,9 +34,10 @@
 3. Switch to `feature-dashboard` and rebase it onto `main`
 4. Observe your `git log --oneline --graph --all` — how does the history look compared to a merge?
 
-    ![snapshot](images/rebase.png)
+    ![snapshot](images/git7.png)
+    ![snapshot](images/git8.png)
     
-5. Answer in your notes:
+6. Answer in your notes:
    - What does rebase actually do to your commits?
      * Rebase creates linear history.
    - How is the history different from a merge?
@@ -56,13 +57,13 @@
 1. Create a branch `feature-profile`, add 4-5 small commits (typo fix, formatting, etc.)
 2. Merge it into `main` using `--squash` — what happens?
 
-    ![snapshot](images/squash.png)
+    ![snapshot](images/git9.png)
     
 3. Check `git log` — how many commits were added to `main`?
 4. Now create another branch `feature-settings`, add a few commits
 5. Merge it into `main` **without** `--squash` (regular merge) — compare the history
 
-    ![snapshot](images/simple.png)
+    ![snapshot](images/git11.png)
     
 6. Answer in your notes:
    - What does squash merging do?
@@ -78,8 +79,6 @@
 
 1. Start making changes to a file but **do not commit**
 2. Now imagine you need to urgently switch to another branch — try switching. What happens?
-
-    ![snapshot](images/stash.png)
     
     * If changes doesn't conflict with the branch you are switching to it will let you switch, else it will not allow switch.
     
@@ -89,9 +88,8 @@
 6. Try stashing multiple times and list all stashes
 7. Try applying a specific stash from the list
 
-    ![snapshot](images/stash1.png)
+    ![snapshot](images/git12.png)
     
-    ![snapshot](images/stash2.png)
     
 8. Answer in your notes:
    - What is the difference between `git stash pop` and `git stash apply`?
@@ -110,9 +108,9 @@
 3. Cherry-pick **only the second commit** from `feature-hotfix` onto `main` 
 4. Verify with `git log` that only that one commit was applied
 
-    ![snapshot](images/cherry1.png)
+    ![snapshot](images/git9.png)
     
-    ![snapshot](images/cherry2.png)
+    ![snapshot](images/git11.png)
     
 5. Answer in your notes:
    - What does cherry-pick do?
