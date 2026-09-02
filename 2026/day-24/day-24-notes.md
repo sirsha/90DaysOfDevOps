@@ -58,13 +58,13 @@
 1. Create a branch `feature-profile`, add 4-5 small commits (typo fix, formatting, etc.)
 2. Merge it into `main` using `--squash` — what happens?
 
-    ![snapshot](images/git9.png)
+    ![snapshot](images/squah.png)
     
 3. Check `git log` — how many commits were added to `main`?
 4. Now create another branch `feature-settings`, add a few commits
 5. Merge it into `main` **without** `--squash` (regular merge) — compare the history
 
-    ![snapshot](images/git11.png)
+    ![snapshot](images/squash2.png)
     
 6. Answer in your notes:
    - What does squash merging do?
