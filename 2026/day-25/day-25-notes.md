@@ -78,7 +78,7 @@ specified
    - Pros : Everything perfectly tracked.
    - Cons : Can be complex and difficult to manage.
 
-    ![snapshot](gitflow.jpeg)
+    ![snapshot](git-model@2x.png)
 
 2. **GitHub Flow** — 
    - **main** : Production ready state.
