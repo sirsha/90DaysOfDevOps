@@ -20,11 +20,10 @@
 5. Open a repo in your browser directly from the terminal
 6. Delete the test repo you created (be careful!)
 
-    ![snapshot](images/repo_create.png)
+    ![snapshot](images/gh2.png)
 
-    ![snapshot](images/repo_list.png)
+    ![snapshot](images/gh3.png)
     
-    ![snapshot](images/repo_delete.png)
     
 ---
 
@@ -40,9 +39,9 @@
       - gh issue comment <issue num>
       - gh issue close <issue num>
 
-    ![snapshot](images/issue_create.png)
+    ![snapshot](images/gh4.png)
     
-    ![snapshot](images/issue_close.png)
+    
     
 ---
 
@@ -52,7 +51,7 @@
 3. View the details of your PR — check its status, reviewers, and checks
 4. Merge your PR from the terminal
 
-    ![snapshot](images/pr.png)
+    ![snapshot](images/gh5.png)
     
 5. Answer in your notes:
    - What merge methods does `gh pr merge` support?
@@ -73,6 +72,6 @@
     * They allow you to automate workflows without interactive sessions, making it easy to trigger, monitor, 
      and manage GitHub Actions directly from scripts or automation tools.
 
-    ![snapshot](images/workflow.png)
+    
     
 ---
