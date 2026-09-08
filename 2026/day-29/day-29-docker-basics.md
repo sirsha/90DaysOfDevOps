@@ -38,30 +38,28 @@ Research and write short notes on:
 3. Run the `hello-world` container
 4. Read the output carefully — it explains what just happened
     
-    ![snapshot](images/hello-world.png)
+    ![snapshot](images/docker1.png)
     
 ---
 
 ## Task 3: Run Real Containers
 1. Run an **Nginx** container and access it in your browser
 
-    ![snapshot](images/nginx.png)
+    ![snapshot](images/docker2.png)
     
 2. Run an **Ubuntu** container in interactive mode — explore it like a mini Linux machine
 
-    ![snapshot](images/ubuntu.png)
+    ![snapshot](images/docker3.png)
     
 3. List all running containers
 
-    ![snapshot](images/ps.png)
+    ![snapshot](images/docker4.png)
     
 4. List all containers (including stopped ones)
-
-    ![snapshot](images/ps-a.png)
-    
 5. Stop and remove a container
 
-    ![snapshot](images/rm-stop.png)
+    ![snapshot](images/docker5.png)
+    
 
 ---
 
@@ -75,20 +73,20 @@ Research and write short notes on:
 2. Give a container a custom **name**
 3. Map a **port** from the container to your host
 
-    ![snapshot](images/name.png)
+    ![snapshot](images/docker6.png)
     
 4. Check **logs** of a running container
 
-    ![snapshot](images/logs.png)
+    ![snapshot](images/docker7.png)
     
 5. Run a command **inside** a running container
 
-    ![snapshot](images/exec.png)
+    ![snapshot](images/docker8.png)
 
 ---
 
 ## Deployed on nginx in container locally
 
-![snapshot](images/page1.png)
+![snapshot](images/docker9.png)
     
-![snapshot](images/page2.png)
+![snapshot](images/docker10.png)
