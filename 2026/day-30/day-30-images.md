@@ -32,7 +32,7 @@
   
 5. Remove an image you no longer need
      * `docker rmi <image-id>`
-     
+   ![snapshot](images/docker2.png).
 ---
 
 ## Task 2: Image Layers
@@ -46,7 +46,7 @@
        Now if you recreate after changing docker uses cached layers for unchanged layers. 
        Hence images are build faster and more efficient.
       
-    ![snapshot](images/layers.png)
+    ![snapshot](images/docker3.png)
     
 ---
 
@@ -63,61 +63,60 @@ Practice the full lifecycle on one container:
 
 Check `docker ps -a` after each step — observe the state changes.
 
-   ![snapshot](images/state.png)
+   ![snapshot](images/docker4.png)
     
-   ![snapshot](images/state1.png)
-    
+       
 ---
 
 ## Task 4: Working with Running Containers
 1. Run an Nginx container in detached mode
 
-    ![snapshot](images/4-a.png)
+    ![snapshot](images/docker9.png)
     
 2. View its **logs**
 
-    ![snapshot](images/4-b.png)
+    ![snapshot](images/docker10.png)
     
 3. View **real-time logs** (follow mode)
 
-    ![snapshot](images/4-c.png)
+    ![snapshot](images/docker11.png)
     
 4. **Exec** into the container and look around the filesystem
 
-    ![snapshot](images/4-d.png)
+    ![snapshot](images/docker12.png)
     
 5. Run a single command inside the container without entering it
 
-    ![snapshot](images/4-e.png)
+    ![snapshot](images/docker13.png)
     
 6. **Inspect** the container — find its IP address, port mappings, and mounts
 
-    ![snapshot](images/4-fip.png)
-    ![snapshot](images/4-fport.png)
-    ![snapshot](images/4-fmount.png)
+    ![snapshot](images/docker5.png)
+    ![snapshot](images/docker6.png)
+    
 
 ---
 
 ### Task 5: Cleanup
 1. Stop all running containers in one command
 
-    ![snapshot](images/stop-all.png)
+    ![snapshot](images/docker7.png)
     
 2. Remove all stopped containers in one command
 
-    ![snapshot](images/rm-all.png)
+    ![snapshot](images/docker8.png)
     
 * Using prune
     
-    ![snapshot](images/prune.png)
+    ![snapshot](images/docker16.png)
     
 3. Remove unused images
 
-    ![snapshot](images/rm-images.png)
+    ![snapshot](images/docker17.png)
     
 4. Check how much disk space Docker is using
 
-    ![snapshot](images/df.png)
+    ![snapshot](images/docker18.png)
     
 ---
 
