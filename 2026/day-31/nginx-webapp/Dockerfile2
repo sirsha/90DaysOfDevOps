@@ -1,0 +1,14 @@
+FROM nginx:latest
+
+RUN echo "Building my Nginx Docker image"
+
+WORKDIR /usr/share/nginx/html
+
+COPY . .
+
+RUN ls -a
+
+EXPOSE 8080
+
+CMD ["nginx", "-g", "daemon off;"]
+

@@ -1,0 +1,12 @@
+# ignore git files
+.git
+.gitignore
+
+# ignore node_modules
+node_modules
+
+# ignore md 
+*.md
+
+# ignore congis
+*.env
