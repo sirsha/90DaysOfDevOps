@@ -11,7 +11,7 @@
 
 **Verify:** The message prints on `docker run`
 
-   [Docker file](my-first-image/dockerfile)
+   [Docker file](my-first-image/Dockerfile)
 
    ![snapshot](images/docker5.png)
     
@@ -28,7 +28,7 @@ Create a new Dockerfile that uses **all** of these instructions:
 
 Build and run it. Understand what each line does.
 
-   [Docker file](java-hello-world-webapp/dockerfile)
+   [Docker file](nginx-webapp/Dockerfile2)
 
    ![snapshot](images/docker1.png)
     
