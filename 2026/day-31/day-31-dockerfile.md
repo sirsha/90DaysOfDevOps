@@ -13,7 +13,7 @@
 
    [Docker file](my-first-image/dockerfile)
 
-   ![snapshot](images/hello.png)
+   ![snapshot](images/docker5.png)
     
 ---
 
@@ -30,7 +30,7 @@ Build and run it. Understand what each line does.
 
    [Docker file](java-hello-world-webapp/dockerfile)
 
-   ![snapshot](images/maven.png)
+   ![snapshot](images/docker1.png)
     
 ---
 
@@ -39,7 +39,7 @@ Build and run it. Understand what each line does.
 2. Create an image with `ENTRYPOINT ["echo"]` — run it, then run it with additional arguments. What happens?
 3. Write in your notes: When would you use CMD vs ENTRYPOINT?
 
-    ![snapshot](images/cmd-entry.png)
+    ![snapshot](images/docker6.png)
     
 * **CMD** : Provides defaults for container runtime. Completely overridden if you pass a command at runtime.
 * **ENTRYOINT** : Always runs the specified command first. Appends any additional arguments passed at runtime.
@@ -54,9 +54,9 @@ Build and run it. Understand what each line does.
 3. Build and tag it `my-website:v1`
 4. Run it with port mapping and access it in your browser
 
-    [Docker file](nginx-demo/dockerfile)
+    [Docker file](nginx-webapp/Dockerfile2)
 
-    ![snapshot](images/website.png)
+    ![snapshot](images/docker2.png)
     
 ---
 
@@ -65,9 +65,9 @@ Build and run it. Understand what each line does.
 2. Add entries for: `node_modules`, `.git`, `*.md`, `.env`
 3. Build the image — verify that ignored files are not included
     
-   ![snapshot](images/before-ignore.png)
+   ![snapshot](images/docker3.png)
     
-   ![snapshot](images/ls-ignore.png)
+   ![snapshot](images/docker4.png)
     
 ---
 
