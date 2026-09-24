@@ -1,0 +1,9 @@
+services:
+  nginx:
+    image: nginx:latest
+    container_name: my-nginx
+    volume:
+      - ~/practice/volumn:/usr/share/nginx/html
+    ports:
+      - "81:80"
+
