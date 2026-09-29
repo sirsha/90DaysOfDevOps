@@ -52,7 +52,7 @@
 
 * Docker scale fails, giving error port is already allocated.
 
-   ![snapshot](images/scale.png)
+   ![snapshot](images/docker34.png)
 
 ---
 
@@ -63,5 +63,5 @@
   * Compose file
    [Docker Compose](example-voting-app/docker-compose.yml)
 
-   ![snapshot](images/vote.png)
-   ![snapshot](images/result.png)
+   ![snapshot](images/docker32.png)
+   ![snapshot](images/docker33.png)
