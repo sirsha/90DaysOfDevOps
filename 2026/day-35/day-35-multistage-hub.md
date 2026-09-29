@@ -12,7 +12,7 @@
 2. Create a Dockerfile that builds and runs it in a **single stage**
 3. Build the image and check its **size**
 
-   ![snapshot](images/before.png)
+   ![snapshot](images/docker32.png)
 
 ---
 
@@ -26,7 +26,7 @@
 * Multi-stage builds are smaller because they seperate build stage from runtime,
    build contains all files, runtime contains only files that are needed to run the app.
 
-   ![snapshot](images/after.png)
+   ![snapshot](images/docker33.png)
 
 ---
 
@@ -36,11 +36,11 @@
 3. Tag your image properly: `yourusername/image-name:tag`
 4. Push it to Docker Hub
 
-   ![snapshot](images/push.png)
+   ![snapshot](images/docker34.png)
 
 5. Pull it on a different machine (or after removing locally) to verify
 
-   ![snapshot](images/pull.png)
+   ![snapshot](images/docker35.png)
 
 ---
 
@@ -51,15 +51,15 @@
 4. Pull a specific tag vs `latest` — what happens?
     * Specific tag pulls specific version, latest pull newest version. 
 
-   ![snapshot](images/docker-hub.png)
+   ![snapshot](images/docker36.png)
 
    * This is version-1.
 
-   ![snapshot](images/v1.png)
+   ![snapshot](images/docker37.png)
 
    * This is latest.
 
-   ![snapshot](images/latest.png)
+   ![snapshot](images/docker38.png)
 
 ---
 
