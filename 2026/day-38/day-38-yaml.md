@@ -84,15 +84,15 @@ description: >
 
 * Invalid
 
-   ![screenshot](images/invalid-person.png)
+   ![screenshot](images/docker40.png)
 
 * Valid
 
-   ![screenshot](images/person-yml.png)
+   ![screenshot](images/docker41.png)
 
 ### server.yml
 
-   ![screenshot](images/server-yml.png)
+   ![screenshot](images/docker42.png)
 ---
 
 ### Task 6: Spot the Difference
