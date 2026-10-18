@@ -66,9 +66,7 @@ Run `docker compose up` and verify everything works together.
 **Solution** - implemented an Nginx Reverse Proxy configuration. 
     Added required configuration in nginx.conf so that nginx now intercept API calls and forwards them to the backend container
 
-## Final image size
 
-   ![snapshot](final.png)
 
 ## Docker Hub link
 
