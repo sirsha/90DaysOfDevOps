@@ -114,14 +114,17 @@ Draw a CI/CD pipeline for this scenario:
       - Manual action.
       - Push on branch master, pushed only on specified files.
    - How many jobs does it have?
-      - It has 3 jobs.
+      - It has 2 jobs.
    - What does it do? (best guess)
       - First job build_minikube: It uses ubuntu 22.04 runner, checkouts the code,
         set-up environemnt.
-           - download dependncies, builds binaries and uploads artifact.
-      - Second job lint: 
+           - download dependncies, builds binaries and uploads artifact. 
            - checks code for style, formatting, and common errors before it runs.
-      - Third job unit_test:
+      - Second job unit_test:
+           - Checks out the repository
+           - Sets up Go
+           - Installs libvirt-dev
+           - Downloads dependencies
            - Does unit test(verifies the smallest pieces of code behaves as expected)
 ---
  
